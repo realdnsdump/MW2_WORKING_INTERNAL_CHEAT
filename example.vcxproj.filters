@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\useless">
+      <UniqueIdentifier>{f634c2f2-59bc-49b1-9e1f-a5ac69d6a452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{7dd1f30d-b957-4b13-a156-c93bd490d5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Kiero">
+      <UniqueIdentifier>{5ba73f62-700b-423e-ab50-df2d72867872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Globals">
+      <UniqueIdentifier>{ce734973-a126-47f1-9ae1-217e935e5087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Settings">
+      <UniqueIdentifier>{f8692858-6570-4922-b78c-0d8c5a4ee785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functions">
+      <UniqueIdentifier>{b173f19a-3434-4565-89a4-c85ef554c209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functions\sdk">
+      <UniqueIdentifier>{718145ed-7587-4fab-b37d-15c350d4bb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functions\Game Functions">
+      <UniqueIdentifier>{91b2e0c9-aaed-4806-ad1b-ffe6d9fa594a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functions\Game">
+      <UniqueIdentifier>{a3822663-475b-4a03-9929-21e356bffac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\imgui">
+      <UniqueIdentifier>{7996664c-b757-4e69-a8cb-429ff321eea4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx12.cpp">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\ImGui_ShaderBlobs.cpp">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\Kiero\kiero.cpp">
+      <Filter>Source Files\Menu\Kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="vec.cpp">
+      <Filter>Source Files\useless</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>Source Files\Functions\Game Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Source Files\Functions\Game Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files\Menu\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files\Menu\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk.cpp">
+      <Filter>Source Files\Functions\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\Functions\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx12.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\ImGui_ShaderBlobs.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\Kiero\kiero.h">
+      <Filter>Source Files\Menu\Kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_draw.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimporter.h">
+      <Filter>Source Files\useless</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Source Files\useless</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\useless</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Source Files\useless</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>Source Files\useless</Filter>
+    </ClInclude>
+    <ClInclude Include="style.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_notify.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="fa_solid_900.h">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall.h">
+      <Filter>Source Files\useless</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Source Files\Functions\Game Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Source Files\Functions\Game Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source Files\Menu\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Source Files\Menu\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Source Files\Functions\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Source Files\Functions\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Source Files\useless</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="imgui\LICENSE.txt">
+      <Filter>Source Files\Menu\imgui</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="NtUserSendInput.asm">
+      <Filter>Source Files\useless</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
